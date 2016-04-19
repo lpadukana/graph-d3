@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "sun"},
+    {"id": "earth"},
+    {"id": "moon"},
+    {"id": "iss"},
+    {"id": "landsat-7"},
+    {"id": "hubble"}
+  ],
+  "links": [
+    {"from": "sun", "to": "earth"},
+    {"from": "earth", "to": "moon"},
+    {"from": "earth", "to": "iss"},
+    {"from": "earth", "to": "landsat-7"},
+    {"from": "earth", "to": "hubble"}
+  ]
+}

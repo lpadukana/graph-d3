@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "sun"},
+    {"id": "earth"},
+    {"id": "moon"}
+  ],
+  "links": [
+    {"from": "sun", "to": "earth"},
+    {"from": "earth", "to": "moon"}
+  ]
+}
